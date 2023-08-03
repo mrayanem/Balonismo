@@ -5,6 +5,6 @@ public class Main {
        Pessoa pessoa = new Pessoa("julia",1234567,"x939409",11999999,190,"sim","rua mercurio jardim paraiso");
        Combustivel combustivel = new Combustivel("óleo",5.50,10.50,"dissel");
        String resultado = b1.voar(new Combustivel());
-        System.out.println(resultado);
+       System.out.println(resultado);
     }
 }
