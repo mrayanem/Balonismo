@@ -14,6 +14,16 @@ public class Pessoa {
 
     }
 
+    public Pessoa(String nome, int cpf, String rg, double telefone, int emergencia, String assinaturaTermo, String endereco) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.rg = rg;
+        this.telefone = telefone;
+        this.emergencia = emergencia;
+        this.assinaturaTermo = assinaturaTermo;
+        this.endereco = endereco;
+    }
+
     public String getNome() {
         return nome;
     }
